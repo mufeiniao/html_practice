@@ -1,28 +1,59 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>壁纸推荐</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+        <style>
+            .gallery {
+                display: flax;
+                flex-wrap: wrap;
+                gap:10px;
+            }
+            .gallery a {
+                margin: 5px;
+            }
+            .gallery img {
+                width: 350px;
+                height: auto;
+                cursor: pointer;
+                transition: transform 0.2s;
+            }
+            .gallery img:hover {
+                transform: scale(1.05);
+            }
+        </style>
     </head>
     <body >
         <div style="background-color: rgb(238, 238, 238);">
-        <h1 style="color: rgb(0, 0, 0);"><center>来看看有哪些喜欢的壁纸吧</center></h1>
-       
+            <tittle><h1><center>壁纸分享</center></h1></tittle>
             <p><b>作者：吴俊达</b></p>
-            <a href="" target="_blank">
-            <img src="" width="350px"></a>
-            <a href="" target="_blank">
-            <img src="" width="350px"></a>
-            <a href="" target="_blank">
-            <img src="" width="350px"></a>
-            <a href="" target="_blank">
-            <img src="" width="350px"></a>
-            <a href="" target="_blank">
-            <img src="" width="350px"></a>
-            <a href="" target="_blank">
-            <img src="" width="350px"></a>
-            <a href="" target="_blank">
-            <img src="" width="350px"></a>
-            <a href="" target="_blank">
-            <img src="" width="350px"></a>
+                <div class="gallery">
+                    <a href="w1.jpg" target="_blank">
+                        <img src="w1.jpg" alt="Image 1">
+                    </a>
+                    <a href="w2.jpg" target="_blank">
+                        <img src="w2.jpg" alt="Image 2">
+                    </a>
+                    <a href="w3.jpg" target="_blank">
+                        <img src="w3.jpg" alt="Image 3">
+                    </a>
+                    <a href="w4.jpg" target="_blank">
+                        <img src="w4.jpg" alt="Image 4">
+                    </a>
+                    <a href="w5.jpg" target="_blank">
+                        <img src="w5.jpg" alt="Image 5">
+                    </a>
+                    <a href="w6.jpg" target="_blank">
+                        <img src="w6.jpg" alt="Image 6">
+                    </a>
+                    <a href="w7.jpg" target="_blank">
+                        <img src="w7.jpg" alt="Image 7">
+                    </a>
+                    <a href="w8.jpg" target="_blank">
+                        <img src="w8.jpg" alt="Image 8">
+                    </a>
+                </div>
         </div>
     </body>
 </html>
